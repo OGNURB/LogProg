@@ -1,2 +1,1 @@
-# desafio-aula-3
-lógica da programação
+# lógica da programação
