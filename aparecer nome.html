@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>receber nome pessoa</title>
+</head>
+<style>
+    body {
+    background-color: rgb(198, 193, 199);
+    color: rgb(6, 6, 6);
+    font: normal 16pt Arial; }
+    h1{
+    color: rgb(0, 0, 0); }
+    </style>
+<body>
+    <p id="x">tudo bem com vc, que bom telo nesta aula </p>
+    <p id="y">A soma dos seus valores é igual a:</p>
+
+    <script>
+        var nome = window.prompt("insira seu nome")
+        document.getElementById("x").innerText = "tudo bem com vc, "+ nome +" que bom telo nesta aula"
+        window.alert("Agora digite valores que você dejesa somar")
+        var n1= Number.parseInt(window.prompt("digite seu valor"))
+        var n2= Number.parseInt(window.prompt("digite seu valor"))
+        n3= n1+n2
+        document.getElementById("y").innerText = "A soma dos seus valores é igual a: " + n3
+
+    </script>
+</body>
+</html>
